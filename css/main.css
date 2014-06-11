@@ -1,0 +1,114 @@
+#total,
+next,
+.flash-card dd label.highlighted input {
+    display: none;
+}
+.container {
+    width: 40%;
+    margin-top: 75px;
+}
+.flash-card,
+#total {
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 25px;   
+}
+.flash-card {
+    background: #d983a3;
+}
+.flash-card {
+    background: #d983a3;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 25px;   
+}
+.flash-card dt {
+    font-size: 30px;
+    text-shadow: #fff 1px 1px;    
+}
+.flash-card dd {
+    font-size: 18px;
+    width: 215px;
+}
+.flash-card dd label.highlighted {
+    background: #355f7f;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+}
+.flash-card dd input {
+    margin-right: 10px;
+    float: left;
+}
+#total {
+    background: #5486bf;
+    color: #fff;
+}
+#total h3 {
+    font-weight: normal;
+    margin-top: 0;
+}
+#total h3 strong {
+    font-size: 31px;
+}
+#total percentage {
+    color: #EB8989;
+    font-weight: bold;
+    font-size: 28px;
+    text-shadow: #000 1px 1px;
+}
+#total h4 {
+    color: #F1F166;
+}
+#total a {
+    display: block;
+    text-align: right;
+    text-decoration: underline;
+    color: #fff;
+}
+#total a:hover {
+    text-decoration: none;
+}
+result {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    padding: 10px;    
+}
+result.correct {
+    color: #5cb85c;
+}
+result.incorrect {
+    color: #bf5454;
+}
+score {
+    float: right;
+    font-weight: bold;
+    font-size: 15px;
+}
+next {
+    float: right;
+    padding: 7px;
+    border-radius: 3px;
+    background: #5486bf;
+    margin-bottom: 20px;
+}
+next a,
+next a:hover {
+    color: #fff;
+}
+a.continue {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 100%;
+}
+.glyphicon-arrow-right {
+    margin: 0 0 0 10px;
+    font-size: 20px;
+    color: #fff;
+}
+.arrow {
+    float: left;    
+}
