@@ -3,9 +3,8 @@ next,
 .flash-card dd label.highlighted input {
     display: none;
 }
-.container {
-    width: 40%;
-    margin-top: 75px;
+.container-fluid {
+    margin-top: 25px;
 }
 .flash-card,
 #total {

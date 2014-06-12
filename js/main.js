@@ -17,14 +17,17 @@ $(document).ready(function () {
             dataType: 'json',
             success: function (data) {
             
-                $('.flash-card').remove();  
-
                 // we'll need these two variables outside of this function
                 numQuestions = data.quizQuestions.length;
                 correctAns = data.quizQuestions[questionIndex].correctAnswer;
 
+                // cute transition to get us between cards
+                $('.flash-card').toggle("drop" , function() {
+                    $(this).remove();
+                });  
+
                 // build the flash card with empty elements
-                $('.container').prepend(
+                $('.container-fluid').prepend(
                     '<div class="flash-card">' +
                     '<dl>' +
                     '<dt></dt>' +
