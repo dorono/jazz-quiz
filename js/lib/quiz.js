@@ -34,7 +34,7 @@ $(document).ready(function () {
           '</div>'
       );
 
-      // generate individual questions
+      // generate answer option list for each question
       $.each(jsonData.quizQuestions[questionIndex].answers , function(x,indivAnswer) {
           $('.flash-card dl').append(
           '<dd>' +
