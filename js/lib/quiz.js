@@ -63,6 +63,7 @@ function quiz(settings) {
       $('button').prop('disabled', true);
     
     };
+    
     // Handles the scoring and messaging upon the user's answer input
     var submitAnswer = function() {
         // if the answer is correct
