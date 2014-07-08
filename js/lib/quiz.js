@@ -86,7 +86,7 @@ function quiz(settings) {
             // if this is the very last question, give it a few seconds and then display
             // the results screen
             setTimeout(function() {
-                tallyResults()
+                tallyResults();
             }, 2000);
         }
         return;
